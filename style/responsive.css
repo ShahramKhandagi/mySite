@@ -1,0 +1,258 @@
+@media only screen and (max-width: 1200px) {
+
+    .profile-about > h2{
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+    
+    .profile-about > h2 > span{
+        color: #00A884;
+        font-size: 40px;
+    }
+    
+    .profile-about > h1{
+        color: #00BD95;
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    
+    .profile-about > h4{
+        color: white;
+        font-size: 25px;
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    * {
+        font-size: 15px;
+    }
+
+    header {
+        height: 600px;
+    }
+
+    .btn-rezome {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+
+    .profile-img > img{
+        height: 317px;
+        width: 317px;
+    }
+
+
+    .profile-about > h2{
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    
+    .profile-about > h2 > span{
+        color: #00A884;
+        font-size: 30px;
+    }
+    
+    .profile-about > h1{
+        color: #00BD95;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    
+    .profile-about > h4{
+        color: white;
+        font-size: 18px;
+        padding-top: 40px;
+    }
+
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .menu_item {
+        padding-left: 8px;
+        font-size: 14px;
+    }
+
+    .title-name {
+        font-size: 30px;
+        margin: 80px auto 80px auto;
+    }
+
+    .mb-50 {
+        margin-bottom: 35px;
+    }
+
+    .project-img {
+        width: 292px;
+        height: 185px;
+    }
+
+    .contact-text>input {
+        font-size: 14px;
+    }
+
+    .contact-textarea>textarea {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    header{
+       padding-bottom: 1000px;
+    }
+
+    .profile-img{
+        display: none;
+    }
+
+    .top{
+        display: flex !important;
+        margin-bottom: 50px;
+    }
+    
+
+    .profile-about > h2 ,
+    .profile-about > h2 > span,
+    .profile-about > h1,
+    .profile-about > h4 {
+        text-align: center;
+    }
+    
+
+    .soshalmedia {
+        display: flex;
+        justify-content: center
+    }
+
+    .btn-rez{
+        text-align: center;
+    }
+
+
+    .pl {
+        padding-left: 15px !important;
+    }
+
+    .pr {
+        padding-right: 15px !important;
+    }
+
+    .container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .muno-icon {
+        display: block;
+    }
+
+    .muno-icon:hover {
+        cursor: pointer;
+    }
+
+    .del-icon:hover {
+        cursor: pointer;
+    }
+
+    .menu_list {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -250px;
+        background: linear-gradient(#00A884 0%, #000 80%);
+        width: 150px;
+        text-align: center;
+        transition: 0.5s;
+        z-index: 99999;
+    }
+
+    .menu_item {
+        margin: 35px 15px;
+    }
+
+    .muno-icon>a>img {
+        width: 45px;
+    }
+
+
+    .del-icon {
+        width: 18PX;
+        display: inline;
+    }
+
+    .about-list {
+        margin-bottom: 70px;
+    }
+
+
+    .contactus-texts {
+        width: 100%;
+        float: none;
+        margin-bottom: 25px;
+    }
+
+
+    .contactus-message {
+        width: 100%;
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .menu {
+        display: none;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+
+    .btn-rezome {
+        display: block;
+        width: 100%;
+    }
+
+    .about-item__icons-item__btn-razome {
+        margin-top: 30px;
+        padding: 8px;
+    }
+
+    .don-rezome__btn-buttom {
+        display: none;
+    }
+
+    li {
+        font-size: 11px;
+    }
+
+    span {
+        font-size: 11px;
+    }
+
+    * {
+        font-size: 13px;
+    }
+
+    .img-project {
+        width: 264px;
+        height: 167px;
+    }
+
+    .flip-card-sajjeo {
+        width: 264px;
+        height: 167px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+    }
+}

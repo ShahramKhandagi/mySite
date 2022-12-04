@@ -1,0 +1,413 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    direction: rtl;
+    background-color: #171C22;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title-name{
+    text-align: center;
+    color: #6BBED4;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 110px auto 110px auto;
+}
+
+
+/* ================ Start Header =============== */
+
+/* ========== Start navbar ==========*/
+
+header{
+    background-color: #1F282F;
+    padding-bottom: 40px;
+
+}
+
+.nav {
+    display: flow-root;
+    justify-content: space-between;
+    padding: 50px 0;
+    padding-bottom: 80px;
+    align-items: center;
+}
+
+.muno-icon {
+    display: none;
+    position: fixed;
+    top: 20px;
+    z-index: 9999;
+}
+
+.del-icon{
+    display: none;
+}
+
+.menu_list{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    z-index: 9999;
+}
+
+.menu_item{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu-item-link{
+    color: #FFFFFF;
+    padding: 8px;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.menu-item-link:hover{
+    cursor: pointer;
+    color: #6BBED4;
+    background-color: #6969698a;
+    border-radius: 5px;
+    padding: 8px;
+    padding-bottom: 10px;
+}
+
+
+
+/* ========== end navbar ==========*/
+
+.profile-img > img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 3px solid #6BBED4;     
+}
+
+.top{
+    display: none !important;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.profile-about > h2{
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.profile-about > h2 > span{
+    color: #3994BE;
+    font-size: 50px;
+}
+
+.profile-about > h1{
+    color: #3994BE;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.profile-about > h4{
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.btn-rezome{
+    padding: 15px 48px;
+    color: white;
+    background-color: #6BBED4;
+    border-radius: 10px;
+    margin-top: 128px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    box-shadow: 4px 5px 15px -4px #6BBED4;     
+}
+
+.soshalmedia{
+    padding-top: 50px;
+}
+
+.sos-menu{
+    display:flex;
+
+}
+
+.sos-menu-icon > a > img{
+    width: 70px;
+    height: auto;
+}
+
+
+/* ================ end Header =============== */
+
+
+
+/* ================ Start Main =============== */
+
+/* ========== start aboutme ==========*/
+.aboutus{
+    padding-bottom: 100px;
+
+}
+
+.about-list{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.about-item{
+    padding-bottom: 25px;
+}
+
+.about-item > span{
+    color: #bdbdbd;
+    padding-right: 20px;
+}
+
+
+.about-text > p{
+    color: white;
+    margin: 0 !important;
+    padding: 0;
+    letter-spacing: 1;
+    -webkit-line-clamp: 3;
+    line-height: 3rem;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.about-text > p:hover{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 100;
+    -webkit-box-orient: vertical;
+}
+
+/* ========== end aboutme ==========*/
+
+
+/* ========== start skills ==========*/
+
+.skills{
+    padding-bottom: 100px;
+    background-color: #1E2830;
+}
+
+.skills-textbar{
+    color: white;
+    direction: ltr;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+
+.progress{
+    direction: ltr;
+    display: flex;
+    height: 6px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #6E6E6E;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-bottom: 67px;
+}
+
+.progress-bar{
+    background-color: #3994BE;
+}
+
+/* ========== end skills ==========*/
+
+
+/* ========== start projects ==========*/
+
+.projects{
+    padding-bottom: 100px;
+}
+
+
+.project-card{
+    margin-bottom: 70px !important;
+}
+
+.img-project{
+    width: 420px;
+    height: 280px;
+}
+
+.flip-card-sajjeo{
+    background-color: transparent;
+    width: 420px;
+    height: 280px;
+    perspective: 1000px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.flip-card-inner-sajjeo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.flip-card-sajjeo:hover .flip-card-inner-sajjeo {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front-sajjeo, .flip-card-back-sajjeo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front-sajjeo{
+    background-color: #bbb;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flip-card-back-sajjeo{
+    background-color: #6BBED4;
+    color: black;
+    transform: rotateY(180deg);
+    border-radius: 5px;
+}
+
+.flip-card-back-sajjeo > h2{
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 10px 12px;
+}
+
+.flip-card-back-sajjeo > p{
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px 12px;
+}
+
+/* ========== end projects ==========*/
+
+
+/* ========== start contactus ==========*/
+
+.contactus{
+    padding-bottom: 50px;
+}
+
+.contactus , footer{
+    background-color: #1E2830;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-text > input {
+    background-color: #00a88427;
+    border: 3px solid #6BBED4;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 18px;
+    height: 45px;
+    width: 100%;
+    outline: 0;
+    font-family: unset;
+}
+
+.contact-textarea > textarea{
+    background-color: #00a88427;
+    border: 3px solid #6BBED4;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 18px;
+    width: 100%;
+    height: 167px;
+    outline: 0;
+    font-family: unset; 
+    resize: none;
+}
+
+.btn-submit{
+    border: 3px solid #6BBED4;
+    border-radius: 5px;
+    width: 35%;
+    background-color: #00a88427;
+    color: #6BBED4;
+    font-family: unset;
+    padding: 10px 5px;  
+    margin-bottom: 20px;
+}
+
+.btn-submit:hover{
+    background-color: #6BBED4;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* ========== start contactus ==========*/
+
+/* ================ end Main =============== */
+
+
+/* ================ Start Footer =============== */
+
+.footer-text{
+    text-align: center;
+    margin: 100px auto 50px auto;
+    color: #bdbdbd;
+}
+
+.footer-text > span{
+    color: #3994BE;
+}
+
+
+/* ================ end Footer =============== */
